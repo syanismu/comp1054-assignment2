@@ -1,0 +1,159 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Arima+Madurai&family=Assistant&family=Cormorant+Garamond&family=Cormorant+Upright&family=Creepster&family=Great+Vibes&family=Italianno&family=Julee&family=Laila&family=Literata:opsz@7..72&family=Lora&family=Parisienne&family=Petit+Formal+Script&family=Playfair+Display&family=Pontano+Sans&family=Prata&family=Roboto+Mono&family=Rochester&family=Solitreo&family=Tangerine:wght@700&family=Taviraj&display=swap');
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+u {
+    text-decoration: underline rgba(76, 200, 54);
+}
+
+body {
+    background-color: rgb(10, 19, 26);
+    line-height: 1.5;
+}
+
+header {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(10, 19, 26, 100)), url(../images/black_blue_comp_bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    color: #f4f4f4;
+    font-size: 80px;
+    font-family: 'Rochester', cursive;
+    text-align: center;
+    padding-top: 1em;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    text-decoration: underline 2px rgb(76, 200, 54);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 2.5em;
+    background-image: radial-gradient(rgb(101, 204, 251) 50%, rgb(10, 19, 26) 70%);
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    border-width: 15px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to top, 
+        rgba(76, 200, 54, 0.7) 10%, 
+        rgba(0, 0, 0, 0) 80%
+      ) 1 ;
+}
+
+div div {
+    padding: 1em 1em 1.5em 4em;
+}
+
+main p {
+    font-size: 30px;
+    font-family: 'Cormorant Upright', serif;
+    color: rgb(185, 229, 249);
+}
+
+/*
+color: rgb(84, 195, 226);
+*/
+
+.creepy {
+    font-family: 'Julee', cursive;
+}
+
+.creepster {
+    font-family: 'Creepster', cursive;
+}
+
+.fancy {
+    font-size: 35px;
+    font-family: 'Parisienne', cursive;
+    line-height: 1;
+}
+
+.flat {
+    font-size: 24px;
+    font-family: 'Laila', sans-serif;
+}
+
+.nostalgia {
+    font-family: 'Rochester', cursive;
+}
+
+.really-slow {
+    letter-spacing: 5px;
+}
+
+.slowest {
+    letter-spacing: 2.5px;
+}
+
+.slower {
+    letter-spacing: 2px;
+}
+
+.slightly-slower {
+    letter-spacing: 1.5px;
+}
+
+.slow {
+    letter-spacing: 1px;
+}
+
+.slightly-slow {
+    letter-spacing: 0.5px;
+}
+
+.slightly-fast {
+    letter-spacing: -0.5px;
+}
+
+.fast {
+    letter-spacing: -1px;
+}
+
+.slightly-faster {
+    letter-spacing: -1.5px;
+}
+
+.faster {
+    letter-spacing: -2px;
+}
+
+.fastest {
+    letter-spacing: -2.5px;
+}
+
+footer {
+    color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+
+/*
+font-family: 'Cormorant Upright', serif;   BOUNCY
+font-family: 'Julee', cursive;   CREEPY FONT
+font-family: 'Laila', sans-serif;   FLICKY
+font-family: 'Rochester', cursive;   FANCY
+font-family: 'Playfair Display', serif;  NoRMAL?
+font-family: 'Assistant', sans-serif; NORMAL?
+*/
